@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../constants.dart';
 import '../../../widgets/custom_suffix_icon.dart';
 import '../../../widgets/form_error.dart';
+import '../../otp/otp_screen.dart';
 // import '../../otp/otp_screen.dart';
 
 class CompleteProfileForm extends StatefulWidget {
@@ -136,7 +137,7 @@ class _CompleteProfileFormState extends State<CompleteProfileForm> {
           ElevatedButton(
             onPressed: () {
               if (_formKey.currentState!.validate()) {
-                // Navigator.pushNamed(context, OtpScreen.routeName);
+                Navigator.pushNamed(context, OtpScreen.routeName);
               }
             },
             child: const Text("Continue"),
