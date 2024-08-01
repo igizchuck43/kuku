@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+
+const kTextColor2 = Color(0xFF22292E);
+const kTextColorAccent = Color(0xFF8A8A8E);
+
+
 const kPrimaryColor = Color(0xFFFF7643);
 const kPrimaryLightColor = Color(0xFFFFECDF);
 const kPrimaryGradientColor = LinearGradient(

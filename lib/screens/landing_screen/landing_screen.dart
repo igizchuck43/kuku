@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../constants.dart';
+import '../../utils/screen_utils.dart';
+
 
 
 class LandingScreen extends StatelessWidget {
@@ -43,7 +46,7 @@ class IntroWidget extends StatelessWidget {
                   child: Text(
                     'Welcome to Kurinda',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      color: kTextColor,
+                      color: kTextColor2,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
@@ -61,7 +64,8 @@ class IntroWidget extends StatelessWidget {
             Spacer(),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushNamed(IntroScreen.routeName);
+
+                // Navigator.of(context).pushNamed(IntroScreen.routeName);
               },
               child: Text('Get Started'),
             ),
