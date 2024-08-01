@@ -4,7 +4,7 @@ import '../../constants.dart';
 import '../../utils/screen_utils.dart';
 
 class SplashScreen extends StatefulWidget {
-  
+
   static const routeName = '/splash_screen';
   const SplashScreen({super.key});
 
