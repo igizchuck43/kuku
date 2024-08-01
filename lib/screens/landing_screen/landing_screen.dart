@@ -1,3 +1,4 @@
+import 'package:Kuku/screens/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
@@ -66,7 +67,7 @@ class IntroWidget extends StatelessWidget {
             Spacer(),
             ElevatedButton(
               onPressed: () {
-
+                Navigator.pushNamed(context, SplashScreen.routeName);
                 // Navigator.of(context).pushNamed(IntroScreen.routeName);
               },
               child: Text('Get Started'),

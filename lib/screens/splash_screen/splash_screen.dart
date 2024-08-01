@@ -1,3 +1,4 @@
+import 'package:Kuku/screens/sign_in/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
@@ -104,6 +105,7 @@ class TextView extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
 
+                Navigator.pushNamed(context, SignInScreen.routeName);
                 // Navigator.of(context).pushNamed(LoginScreen.routeName);
 
               },
