@@ -174,7 +174,7 @@ class IllustrationPageView extends StatelessWidget {
               children: [
                 TextButton(
                   onPressed: () {
-
+                    Navigator.pushNamed(context, SignInScreen.routeName);
                     // Navigator.of(context).pushNamed(LoginScreen.routeName);
                   },
                   child: Text(
