@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../constants.dart';
 import '../../utils/screen_utils.dart';
 import '../../widgets/back_button_ls.dart';
+import '../map_screen/map_screen.dart';
 
 class AddressScreen extends StatelessWidget {
   static const routeName = '/address_screen';
@@ -36,6 +37,7 @@ class AddressScreen extends StatelessWidget {
                         Spacer(),
                         GestureDetector(
                           onTap: () {
+                            Navigator.pushNamed(context, MapScreen.routeName);
                             // Navigator.of(context).pushNamed(MapScreen.routeName);
                           },
                           child: Image.asset('assets/images/map.png'),

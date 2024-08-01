@@ -157,7 +157,9 @@ class BottomCard extends StatelessWidget {
                     SizedBox(
                       height: getProportionateScreenHeight(10),
                     ),
-                    ElevatedButton(onPressed: () {}, child: Text('Add Address'))
+                    ElevatedButton(onPressed: () {
+                      // Navigator.pushNamed(context, HomeScreen.routeName);
+                    }, child: Text('Add Address'))
                   ],
                 ),
               ),

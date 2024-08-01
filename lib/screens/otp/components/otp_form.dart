@@ -1,3 +1,4 @@
+import 'package:Kuku/screens/address_screen/address_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
@@ -107,7 +108,7 @@ class _OtpFormState extends State<OtpForm> {
           SizedBox(height: MediaQuery.of(context).size.height * 0.15),
           ElevatedButton(
             onPressed: () {
-
+              Navigator.pushNamed(context, AddressScreen.routeName);
             },
             child: const Text("Continue"),
           ),
