@@ -1,3 +1,4 @@
+import 'package:Kuku/screens/landing_screen/landing_screen.dart';
 import 'package:Kuku/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       title: 'Kurinda',
       theme: AppTheme.lightTheme(context),
 
-      // initialRoute: SplashScreen.routeName,
+      initialRoute: LandingScreen.routeName,
+      routes: routes,
       // routes: routes(),
     );
   }

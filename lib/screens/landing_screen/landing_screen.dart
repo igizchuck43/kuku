@@ -6,6 +6,8 @@ import '../../utils/screen_utils.dart';
 
 
 class LandingScreen extends StatelessWidget {
+  static const routeName = '/landing_screen';
+  const LandingScreen({super.key});
   @override
   Widget build(BuildContext context) {
     ScreenUtils().init(context);
