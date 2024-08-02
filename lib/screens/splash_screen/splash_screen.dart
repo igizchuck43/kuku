@@ -200,13 +200,13 @@ class IllustrationPageView extends StatelessWidget {
                 },
                 children: [
                   Image.asset(
-                    'assets/images/illu1.png',
+                    'assets/imgs/illu1.png',
                   ),
                   Image.asset(
-                    'assets/images/illu2.png',
+                    'assets/imgs/illu2.png',
                   ),
                   Image.asset(
-                    'assets/images/illu3.png',
+                    'assets/imgs/illu3.png',
                   )
                 ],
               ),

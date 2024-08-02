@@ -18,7 +18,7 @@ class LandingScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Image.asset(
-              'assets/images/kurinda_logo.png',
+              'assets/imgs/kurinda_logo.png',
               fit: BoxFit.cover,
             ),
             IntroWidget()
