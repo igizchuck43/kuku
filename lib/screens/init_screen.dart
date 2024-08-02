@@ -31,7 +31,7 @@ class _InitScreenState extends State<InitScreen> {
     ),
 
     // const ProfileScreen()
-    
+
   ];
 
   @override
