@@ -17,6 +17,6 @@ final Map<String, WidgetBuilder> routes = {
   OtpScreen.routeName: (context) => const OtpScreen(),
   LoginSuccessScreen.routeName: (context) => const LoginSuccessScreen(),
   HomeScreen.routeName: (context) => const HomeScreen(),
-  
+
 
 };
