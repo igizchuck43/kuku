@@ -2,6 +2,7 @@ import 'package:Kuku/screens/init_screen.dart';
 
 import 'package:flutter/material.dart';
 
+import 'screens/address_screen/address_screen.dart';
 import 'screens/complete_profile/complete_profile_screen.dart';
 import 'screens/home/home_screen.dart';
 import 'screens/landing_screen/landing_screen.dart';
@@ -21,6 +22,7 @@ final Map<String, WidgetBuilder> routes = {
   SignInScreen.routeName: (context) => const SignInScreen(),
   SignUpScreen.routeName: (context) => const SignUpScreen(),
   MapScreen.routeName: (context) => const MapScreen(),
+  AddressScreen.routeName: (context) => const AddressScreen(),
   CompleteProfileScreen.routeName: (context) => const CompleteProfileScreen(),
   OtpScreen.routeName: (context) => const OtpScreen(),
   LoginSuccessScreen.routeName: (context) => const LoginSuccessScreen(),
