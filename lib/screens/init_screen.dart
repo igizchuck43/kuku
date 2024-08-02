@@ -4,8 +4,11 @@ import 'package:flutter_svg/svg.dart';
 import '../constants.dart';
 import 'home/home_screen.dart';
 
+const Color inActiveIconColor = Color(0xFFB6B6B6);
+
 class InitScreen extends StatefulWidget {
   static String routeName = "/";
+
   const InitScreen({super.key});
 
   @override
