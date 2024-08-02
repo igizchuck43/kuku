@@ -40,7 +40,7 @@ class AddressScreen extends StatelessWidget {
                             Navigator.pushNamed(context, MapScreen.routeName);
                             // Navigator.of(context).pushNamed(MapScreen.routeName);
                           },
-                          child: Image.asset('assets/images/map.png'),
+                          child: Image.asset('assets/imgs/map.png'),
                         ),
                       ],
                     ),

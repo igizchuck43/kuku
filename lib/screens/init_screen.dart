@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 import '../constants.dart';
 import 'home/home_screen.dart';
+import 'profile/profile_screen.dart';
 
 const Color inActiveIconColor = Color(0xFFB6B6B6);
 
@@ -33,7 +34,7 @@ class _InitScreenState extends State<InitScreen> {
       child: Text("Chat"),
     ),
 
-    // const ProfileScreen()
+    const ProfileScreen()
 
   ];
 

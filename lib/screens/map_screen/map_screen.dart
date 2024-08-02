@@ -7,6 +7,7 @@ import '../../widgets/back_button_ls.dart';
 
 class MapScreen extends StatelessWidget {
   static const routeName = '/map_screen';
+  const MapScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
