@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../constants.dart';
 import '../../utils/screen_utils.dart';
 import '../../widgets/back_button_ls.dart';
+import '../home/home_screen.dart';
 
 class MapScreen extends StatelessWidget {
   static const routeName = '/map_screen';
@@ -39,7 +40,7 @@ class MapScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: Image.asset(
-                      'assets/images/map_pattern.png',
+                      'assets/imgs/map_pattern.png',
                       fit: BoxFit.fill,
                     ),
                   ),
@@ -47,7 +48,7 @@ class MapScreen extends StatelessWidget {
                     left: 0,
                     right: 0,
                     child: Image.asset(
-                      'assets/images/curLoc.png',
+                      'assets/imgs/curLoc.png',
                     ),
                   ),
                   BottomCard(),
@@ -159,7 +160,7 @@ class BottomCard extends StatelessWidget {
                       height: getProportionateScreenHeight(10),
                     ),
                     ElevatedButton(onPressed: () {
-                      // Navigator.pushNamed(context, HomeScreen.routeName);
+                      Navigator.pushNamed(context, HomeScreen.routeName);
                     }, child: Text('Add Address'))
                   ],
                 ),

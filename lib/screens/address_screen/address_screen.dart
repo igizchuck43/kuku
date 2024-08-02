@@ -110,7 +110,7 @@ class AddressScreen extends StatelessWidget {
                   ],
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
