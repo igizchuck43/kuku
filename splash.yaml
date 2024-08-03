@@ -1,0 +1,12 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+
+  image: assets/imgs/kurinda_splash.png
+
+  #  andriod_12:
+  #    color: "#FFFFFF"
+
+  #    image: assets/images/kurinda2.png
+
+
+  web: false
