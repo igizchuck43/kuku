@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../widgets/animation/FadeAnimation.dart';
 import '../../../widgets/services.dart';
 
 class Index extends StatefulWidget {
@@ -11,17 +12,18 @@ class Index extends StatefulWidget {
 
 class _IndexState extends State<Index> {
   List<Service> services = [
-    Service('Cleaning',
-        'https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/2x/external-cleaning-labour-day-vitaliy-gorbachev-flat-vitaly-gorbachev.png'),
-    Service('Plumber',
-        'https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/2x/external-plumber-labour-day-vitaliy-gorbachev-flat-vitaly-gorbachev.png'),
-    Service('Electrician',
-        'https://img.icons8.com/external-wanicon-flat-wanicon/2x/external-multimeter-car-service-wanicon-flat-wanicon.png'),
-    Service('Painter',
-        'https://img.icons8.com/external-itim2101-flat-itim2101/2x/external-painter-male-occupation-avatar-itim2101-flat-itim2101.png'),
-    Service('Carpenter', 'https://img.icons8.com/fluency/2x/drill.png'),
-    Service('Gardener',
-        'https://img.icons8.com/external-itim2101-flat-itim2101/2x/external-gardener-male-occupation-avatar-itim2101-flat-itim2101.png'),
+    Service('Book an Ambulance',
+        'https://icons8.com/icon/14739/ambulance'),
+    Service('First Aid Tips',
+        'https://icons8.com/icon/11934/hospital'),
+    Service('Security Organ',
+        ''),
+    Service('Emergency Contacts',
+        'https://img.icons8.com/?size=100&id=23311&format=png&color=000000'),
+    Service('Private Guard',
+        'https://icons8.com/icon/EML3C-WjW8gX/security-guard'),
+    Service('Travel Insurance',
+        'https://img.icons8.com/?size=100&id=9Kuhqic976qB&format=png&color=000000'),
   ];
 
   @override
@@ -160,7 +162,7 @@ class _IndexState extends State<Index> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Categories',
+                    'Special Links',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   TextButton(
@@ -184,11 +186,12 @@ class _IndexState extends State<Index> {
                   physics: NeverScrollableScrollPhysics(),
                   itemCount: services.length,
                   itemBuilder: (BuildContext context, int index) {
-                    return FadeAnimation(
+                    return Fadeanimation(
                         (1.0 + index) / 4,
                         serviceContainer(services[index].imageURL,
                             services[index].name, index));
-                  }),
+                  },
+              ),
             ),
             SizedBox(
               height: 20,
