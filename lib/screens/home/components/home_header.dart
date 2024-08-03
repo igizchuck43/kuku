@@ -20,7 +20,7 @@ class HomeHeader extends StatelessWidget {
             svgSrc: "assets/icons/Cart Icon.svg",
 
             press: (){
-              
+
             }
 
           ),

@@ -1,8 +1,7 @@
+import 'package:Kuku/screens/home/components/home_banner.dart';
+import 'package:Kuku/screens/home/components/home_header.dart';
 import 'package:flutter/material.dart';
 
-import 'components/home_app_bar.dart';
-import 'components/home_banner.dart';
-import 'components/home_tile.dart';
 
 class HomeScreen extends StatelessWidget {
   static String routeName = "/home";
@@ -17,11 +16,9 @@ class HomeScreen extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 16),
           child: Column(
             children: [
-              HomeAppBar(),
-              SizedBox(height: 20,),
+              HomeHeader(),
               HomeBanner(),
-              SizedBox(height: 20,),
-              HomeTile(),
+
 
 
             ],
