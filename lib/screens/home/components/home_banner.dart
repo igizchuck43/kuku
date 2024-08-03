@@ -28,7 +28,7 @@ class HomeBanner extends StatelessWidget {
             TextSpan(
               text: "Press the SOS button for quick response from the team",
               style: TextStyle(
-                fontSize: 28,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
