@@ -106,7 +106,7 @@ class TextView extends StatelessWidget {
               onPressed: () {
 
                 Navigator.pushNamed(context, SignInScreen.routeName);
-                // Navigator.of(context).pushNamed(LoginScreen.routeName);
+               
 
               },
               child: Text(

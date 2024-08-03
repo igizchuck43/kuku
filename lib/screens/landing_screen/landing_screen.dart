@@ -68,7 +68,7 @@ class IntroWidget extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, SplashScreen.routeName);
-                // Navigator.of(context).pushNamed(IntroScreen.routeName);
+
               },
               child: Text('Get Started'),
             ),
