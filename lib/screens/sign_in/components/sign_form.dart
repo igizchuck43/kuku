@@ -1,13 +1,12 @@
-import 'package:Kuku/screens/home/home_screen.dart';
+
 import 'package:flutter/material.dart';
 
 
 import '../../../constants.dart';
 import '../../../widgets/custom_suffix_icon.dart';
 import '../../../widgets/form_error.dart';
-import '../../complete_profile/complete_profile_screen.dart';
+import '../../home/home_screen.dart';
 
-// import '../../complete_profile/complete_profile_screen.dart';
 
 class SignUpForm extends StatefulWidget {
   const SignUpForm({super.key});
