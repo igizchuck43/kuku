@@ -5,6 +5,7 @@ import '../../constants.dart';
 import '../../utils/screen_utils.dart';
 import '../../widgets/back_button_ls.dart';
 import '../home/home_screen.dart';
+import '../init_screen.dart';
 
 class MapScreen extends StatelessWidget {
   static const routeName = '/map_screen';
@@ -160,7 +161,8 @@ class BottomCard extends StatelessWidget {
                       height: getProportionateScreenHeight(10),
                     ),
                     ElevatedButton(onPressed: () {
-                      Navigator.pushNamed(context, HomeScreen.routeName);
+                      Navigator.pushNamed(context, InitScreen.routeName);
+                      // Navigator.pushNamed(context, HomeScreen.routeName);
                     }, child: Text('Add Address'))
                   ],
                 ),
