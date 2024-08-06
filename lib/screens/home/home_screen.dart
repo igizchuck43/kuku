@@ -1,5 +1,6 @@
 import 'package:Kuku/screens/home/components/home_banner.dart';
 import 'package:Kuku/screens/home/components/home_header.dart';
+import 'package:Kuku/screens/home/components/home_tile.dart';
 import 'package:flutter/material.dart';
 
 import 'components/index.dart';
@@ -18,9 +19,10 @@ class HomeScreen extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 16),
           child: Column(
             children: [
-              Index(),
-
-
+              // Index(),
+              HomeHeader(),
+              HomeBanner(),
+              HomeTile(),
 
             ],
           ),

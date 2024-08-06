@@ -11,6 +11,10 @@ class Index extends StatefulWidget {
 }
 
 class _IndexState extends State<Index> {
+  static String routeName = "/index_screen";
+
+  // const Index({super.key});
+
   List<Service> services = [
     Service('Book an Ambulance',
         'https://icons8.com/icon/14739/ambulance'),
