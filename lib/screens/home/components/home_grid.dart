@@ -2,32 +2,32 @@ import 'package:flutter/material.dart';
 
 class HomeGrid extends StatelessWidget {
   Cards card1 = new Cards(
-    title: "Private Guard",
+    title: "Book an Ambulance",
     img: "images/"
   );
 
   Cards card2 = new Cards(
-    title: "Ambulance",
+    title: "First Aid Tips",
     img: "images/"
   );
 
   Cards card3 = new Cards(
-      title: "Ambulance",
+      title: "Security Organ",
       img: "images/"
   );
 
   Cards card4 = new Cards(
-      title: "Ambulance",
+      title: "Emergency Contacts",
       img: "images/"
   );
 
   Cards card5 = new Cards(
-      title: "Ambulance",
+      title: "Private Guard",
       img: "images/"
   );
 
   Cards card6 = new Cards(
-      title: "Ambulance",
+      title: "Travel Insurance",
       img: "images/"
   );
 
