@@ -7,6 +7,7 @@ import '../../../constants.dart';
 import '../../../widgets/custom_suffix_icon.dart';
 import '../../../widgets/form_error.dart';
 import '../../home/home_screen.dart';
+import '../../init_screen.dart';
 
 
 
@@ -146,8 +147,8 @@ class _SignUpFormState extends State<SignUpForm> {
               if (_formKey.currentState!.validate()) {
                 _formKey.currentState!.save();
                 // if all are valid then go to success screen
-                Navigator.pushNamed(context, HomeScreen.routeName);
-                // Navigator.pushNamed(context, InitScreen.routeName);
+                // Navigator.pushNamed(context, HomeScreen.routeName);
+                Navigator.pushNamed(context, InitScreen.routeName);
               }
             },
             child: const Text("Continue"),

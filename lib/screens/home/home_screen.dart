@@ -1,3 +1,4 @@
+import 'package:Kuku/screens/home/components/home_ad.dart';
 import 'package:flutter/material.dart';
 
 import 'components/home_banner.dart';
@@ -25,6 +26,8 @@ class HomeScreen extends StatelessWidget {
               HomeBanner(),
               SizedBox(height: 10),
               SpecialLinks(),
+              SizedBox(height: 10,),
+              HomeAd(),
 
             ],
           ),

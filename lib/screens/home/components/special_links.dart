@@ -30,7 +30,7 @@ class SpecialLinks extends StatelessWidget {
                 // mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SpecialOfferCard(
-                    image: "assets/imgs/ambulance5.jpg",
+                    image: "assets/imgs/ambulance1.jpg",
                     category: "Order Ambulance",
                     press: () {
 
@@ -71,7 +71,7 @@ class SpecialLinks extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   SpecialOfferCard(
-                    image: "assets/imgs/contact.png",
+                    image: "assets/imgs/contact1.jpg",
                     category: "Emergency Contacts",
                     press: () {
 
@@ -115,14 +115,16 @@ class SpecialOfferCard extends StatelessWidget {
         onTap: press,
         child: SizedBox(
           width: 210,
-          height: 120,
+          height: 110,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
             child: Stack(
               children: [
                 Image.asset(
                   image,
-                  fit: BoxFit.fill,
+                  fit: BoxFit.cover,
+                  width: 210,
+                  height: 110,
                 ),
                 Container(
                   decoration: const BoxDecoration(
@@ -154,7 +156,6 @@ class SpecialOfferCard extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-
                       ],
                     ),
                   ),
