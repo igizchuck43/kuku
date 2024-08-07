@@ -1,4 +1,4 @@
-import 'package:Kuku/screens/home/components/index.dart';
+
 import 'package:Kuku/screens/init_screen.dart';
 
 import 'package:flutter/material.dart';

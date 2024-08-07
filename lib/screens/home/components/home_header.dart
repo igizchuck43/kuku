@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'icon_btn_with_counter.dart';
+import 'icon_with_btn_counter.dart';
 import 'search_field.dart';
 
 class HomeHeader extends StatelessWidget {
@@ -18,22 +18,16 @@ class HomeHeader extends StatelessWidget {
           const SizedBox(width: 16),
           IconBtnWithCounter(
             svgSrc: "assets/icons/Cart Icon.svg",
-
-            press: (){
-
-            }
-
+            press: () => {},
           ),
           const SizedBox(width: 8),
           IconBtnWithCounter(
             svgSrc: "assets/icons/Bell.svg",
             numOfitem: 3,
-            press: () {
-
-            },
+            press: () {},
           ),
         ],
       ),
-    );;
+    );
   }
 }

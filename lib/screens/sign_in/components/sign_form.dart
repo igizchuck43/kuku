@@ -1,4 +1,5 @@
 
+
 import 'package:flutter/material.dart';
 
 
@@ -6,6 +7,7 @@ import '../../../constants.dart';
 import '../../../widgets/custom_suffix_icon.dart';
 import '../../../widgets/form_error.dart';
 import '../../home/home_screen.dart';
+
 
 
 class SignUpForm extends StatefulWidget {
@@ -145,6 +147,7 @@ class _SignUpFormState extends State<SignUpForm> {
                 _formKey.currentState!.save();
                 // if all are valid then go to success screen
                 Navigator.pushNamed(context, HomeScreen.routeName);
+                // Navigator.pushNamed(context, InitScreen.routeName);
               }
             },
             child: const Text("Continue"),

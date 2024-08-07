@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
-
-
-
 class HomeBanner extends StatelessWidget {
-  const HomeBanner({super.key});
+  const HomeBanner({
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,24 +15,24 @@ class HomeBanner extends StatelessWidget {
         vertical: 16,
       ),
       decoration: BoxDecoration(
-        color: kAlertColor,
+        color: const Color(0xFF4A3298),
         borderRadius: BorderRadius.circular(20),
       ),
       child: const Text.rich(
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "Are you in an emergency situtation\n"),
+            TextSpan(text: "Welcome\n"),
             TextSpan(
-              text: "Press the SOS button for quick response from the team",
+              text: "Charles",
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 28,
                 fontWeight: FontWeight.bold,
               ),
             ),
           ],
         ),
       ),
-    );;
+    );
   }
 }
