@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SosScreen extends StatelessWidget {
+  static const routeName = '/Sos_screen';
   const SosScreen({super.key});
 
   @override

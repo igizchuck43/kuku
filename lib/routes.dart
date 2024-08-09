@@ -1,5 +1,6 @@
 
 import 'package:Kuku/screens/init_screen.dart';
+import 'package:Kuku/screens/sos/sos_screen.dart';
 
 import 'package:flutter/material.dart';
 
@@ -29,6 +30,7 @@ final Map<String, WidgetBuilder> routes = {
   LoginSuccessScreen.routeName: (context) => const LoginSuccessScreen(),
   HomeScreen.routeName: (context) => const HomeScreen(),
   ProfileScreen.routeName: (context) => const ProfileScreen(),
+  SosScreen.routeName: (context) => const SosScreen(),
   // Index().routeName: (context) => Index(),
 
 
