@@ -15,7 +15,7 @@ class SosScreen extends StatelessWidget {
           color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Color(0xFFFF7643),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -31,7 +31,7 @@ class SosScreen extends StatelessWidget {
                 vertical: 16,
               ),
               decoration: BoxDecoration(
-                color: const Color(0xFF979797),
+                color: const Color(0xFFF2F2F7),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
